@@ -24,7 +24,12 @@ namespace CSQRCODEGENERATORDECODER
 
         private void linkLabel1_MouseClick(object sender, MouseEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/miiag/CSCODEGENERATORV1.1.1");
+            System.Diagnostics.Process.Start("https://github.com/miiag/CSQRCODEGENERATORDECODER");
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
         }
     }
 }
