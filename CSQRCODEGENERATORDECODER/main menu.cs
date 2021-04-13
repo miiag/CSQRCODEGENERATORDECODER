@@ -145,5 +145,15 @@ namespace CSQRCODEGENERATORDECODER
                 }
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox1_SizeModeChanged(object sender, EventArgs e)
+        {
+          
+        }
     }
 }
