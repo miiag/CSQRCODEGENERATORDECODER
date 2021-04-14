@@ -39,7 +39,7 @@ namespace CSQRCODEGENERATORDECODER
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(117, 42);
+            this.linkLabel1.Location = new System.Drawing.Point(81, 42);
             this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(842, 36);
@@ -64,10 +64,13 @@ namespace CSQRCODEGENERATORDECODER
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1049, 533);
+            this.ClientSize = new System.Drawing.Size(1067, 533);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.linkLabel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximumSize = new System.Drawing.Size(1085, 580);
+            this.MinimumSize = new System.Drawing.Size(1085, 580);
             this.Name = "Git";
             this.Text = "Git";
             this.Load += new System.EventHandler(this.Git_Load);
